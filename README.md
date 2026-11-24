@@ -2,4 +2,4 @@
 Project for deep learning - "There's layers to this"
 
 
-This branch contains Filip's work.
+Names: Filip Gawrylczyk
