@@ -1,0 +1,50 @@
+name: ML Experiment
+description: Plan a reproducible machine learning experiment.
+labels:
+- 'type: experiment'
+body:
+- type: textarea
+  id: field-1
+  attributes:
+    label: Objective and hypothesis
+    description: State the research question and expected outcome.
+  validations:
+    required: true
+- type: textarea
+  id: field-2
+  attributes:
+    label: Experimental variables
+    description: Specify what changes, comparison baseline and controlled variables.
+  validations:
+    required: true
+- type: textarea
+  id: field-3
+  attributes:
+    label: Dataset and evaluation protocol
+    description: Specify dataset version, splits, metrics and selection procedure.
+      Keep test data separate from tuning.
+  validations:
+    required: true
+- type: textarea
+  id: field-4
+  attributes:
+    label: Configuration and reproducibility
+    description: Specify architecture, hyperparameters, seeds and planned experiment
+      logging.
+  validations:
+    required: true
+- type: textarea
+  id: field-5
+  attributes:
+    label: Computational requirements
+    description: Estimate hardware, runtime and resource constraints.
+  validations:
+    required: false
+- type: textarea
+  id: field-6
+  attributes:
+    label: Acceptance criteria and deliverables
+    description: Specify required runs, recorded results and conclusions, regardless
+      of whether the hypothesis is supported.
+  validations:
+    required: true
