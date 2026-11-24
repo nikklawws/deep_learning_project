@@ -2,4 +2,4 @@
 Project for deep learning - "There's layers to this"
 
 
-Names: Filip Gawrylczyk, Alice Školoudíková
+Names: Filip Gawrylczyk, Alice Školoudíková, Nicușor Simionescu
